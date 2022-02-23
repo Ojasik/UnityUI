@@ -11,6 +11,7 @@ public class VardsVecums : MonoBehaviour {
 	public GameObject ievadesLauks2;
 	public GameObject tekstaAttelosana;
 
+
 	public void uzglabaTekstu(){
 		teksts = ievadesLauks.GetComponent<Text> ().text;
 		teksts2 = ievadesLauks2.GetComponent<Text> ().text;
